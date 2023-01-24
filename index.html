@@ -32,7 +32,52 @@
                 <li>
                     <a href="singin.html">Contact</a>
                 </li>
+                <li>
+                    <img src="images/user.png" class="user" onclick="toggleMenu()">
+                </li>
             </ul>
+
+
+
+            
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="user-info">
+                        <img src="images/user.png">
+                        <h3>James Aldrino</h3>
+                    </div>
+                    <hr>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/profile.png">
+                        <p>Edit Profile</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/setting.png">
+                        <p>Settings</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/help.png">
+                        <p>Support</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="#" class="sub-menu-link">
+                        <img src="images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+
+            
+
+            
         </nav>
     </header>
 
@@ -42,6 +87,13 @@
             navBar= document.querySelector(".nav-bar");
             navBar.classList.toggle("active");
         }
+
+
+        let  subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu")
+    }
     </script>
     
 
@@ -105,7 +157,7 @@ other thing (ask maksim and kirill) -->
             <div class="column">
                 <p>
                     <strong>KMDK</strong>
-                    Is a Latvien workers cooperative based in RVT college.
+                    Is a Latvian workers cooperative based in RVT college.
                 </p>
                 <p>
                     We've been making games since 2021 and we're going to keep on upgrading our games on PC.
