@@ -232,15 +232,23 @@ div.trailer iframe{
     width: 100%;
     padding-top: 30px;
 }
-
+.content{
+    width: 1140px;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.5) 12px);
+}
 .content h2 {
     position: relative;
     text-align: center;
     font-size: 4em;
-    color: #A40239;
+    color: #EF2D56;
     font-family: "berylium_bd",sans-serif;
     font-weight: normal;
+    
 }
+
 
 .box {
     width: 740px;
@@ -270,7 +278,7 @@ ul li {
 }
 
 ul li strong {
-    color: #A40239;
+    color: #EF2D56;
 }
 
 .videos {
@@ -303,10 +311,11 @@ ul li strong {
 
  #footer {
     margin-top: 80px;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 2%;
+    padding-bottom: 3%;
     text-align: center;
     background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.5) 12px);
+    color:#F9CF87;
 }
 
 .fcontent {
@@ -314,4 +323,9 @@ ul li strong {
     margin: auto;
     column-count: 2;
     -moz-column-count: 2;
+}
+
+
+.fcontent p strong{
+    color: #EF2D56;
 }

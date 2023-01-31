@@ -18,7 +18,7 @@
   
   <header class="header-main">
       <div class="header-main-logo">
-        <img src="img/Rvt_8bit_logo.png" alt="LogoRVT">
+        <img src="https://cdn.discordapp.com/attachments/757590961839669339/1062986398870818956/dice_logo.png" alt="LogoRVT">
       </div>
       <div class='hamburger'>
             <div class='line'></div>

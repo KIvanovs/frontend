@@ -12,7 +12,7 @@ include_once 'header.php';
     <div id="contentWrapper">
         <div class="content">
             <h2 class="title">
-                What is RVT Adventure?
+            <span>What is RVT Adventure?</span>
             </h2>
             <div class="box">
                 <p>
@@ -52,6 +52,7 @@ include_once 'header.php';
     <div id="footer">
         <div class="fcontent">
             <div class="column">
+            <img src="https://cdn.discordapp.com/attachments/757590961839669339/1062822979240726719/kdmk.png" alt="LogoRVT">
                 <p>
                     <strong>KMDK</strong>
                     Is a Latvian workers cooperative based in RVT college.
