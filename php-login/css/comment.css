@@ -11,6 +11,7 @@ html {
 
 body {
   min-height: 100vh;
+  
 }
 .comment-form{
   min-height: 30px;
@@ -29,7 +30,8 @@ body {
   font-weight: bold;
   font-size: 30px;
   color: #595959;
-  margin-top: 10px;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .comment-form p{
@@ -205,8 +207,7 @@ body {
 
 
 .comments-list {
- margin-top: 30px;
- margin-left: 55px;
+ margin: 0 auto 1%;
  position: relative;
  width: 500px;
 }

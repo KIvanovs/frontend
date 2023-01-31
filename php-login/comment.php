@@ -22,7 +22,7 @@ else if (isset($_SESSION["adminN"])) {
     </form>";
 }
 else{
-    echo"<section class='comment-form'>
+    echo"
     <div class='container'>
     <h1>To add comment need to login</h1>
     </div>";
@@ -40,10 +40,11 @@ if (isset($_GET["error"])) {
 }   
 ?>
     </div>
+
 </section>
 
 
-<div class="comments-container">    
+<!-- <div class="comments-container">     -->
     <?php
     require_once 'includes/dbh.inc.php';
     require_once 'includes/functions.inc.php';
@@ -70,13 +71,13 @@ if (isset($_GET["error"])) {
         }?>
         <?php echo "</div>
         </div>
-        </div></ul>";
+        </div></ul><h1></h1>";
 } 
 $result->free();
 $conn->close();
 ?> 
             
-</div>
+<!-- </div> -->
     
 </body>
 </html>

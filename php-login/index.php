@@ -39,12 +39,10 @@ include_once 'header.php';
                 </ul>
                 <div class = 'videos'>
                     <video id="video_one" autobuffer="autobuffer" autoplay="autoplay" loop="loop" muted="muted" poster="https://dead-cells.com/img/roofPreview.jpg">
-                        <source src="https://dead-cells.com/video/roof.mp4" type="video/mp4">
-                        <source src="https://dead-cells.com/video/roof.webm" type="video/webm">
+                        <source src="videos/gameplay2.mp4" type="video/mp4">
                     </video>
                     <video id="video_two" autobuffer="autobuffer" autoplay="autoplay" loop="loop" muted="muted" poster="https://dead-cells.com/img/bossFightPreview.jpg">
-                        <source src="https://dead-cells.com/video/bossFight.mp4" type="video/mp4">
-                        <source src="https://dead-cells.com/video/bossFight.webm" type="video/webm">
+                        <source src="videos/gameplay1.mp4" type="video/mp4">
                     </video>
                 </div> 
             </div>
